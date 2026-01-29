@@ -11,8 +11,8 @@ const Card = ({
 }) => {
   return (
     <div
-      className="flex flex-col bg-white/5 rounded-2xl border-2 border-zinc-800
-      p-4 gap-6 overflow-hidden w-full"
+      className="flex flex-col bg-white/5 rounded-2xl border-2 border-white/10
+      p-4 gap-6 overflow-hidden w-full hover:scale-[1.02] transition-all duration-300"
     >
       <div className="flex items-center w-full relative">
         <h2 className="text-zinc-400 grow text-sm">Total Balance</h2>
